@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- 記載番号：2 -->
-    <title>オリアプ（オリジナルアプリ）</title>
+    <title>blogアプリ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css" />
   </head>
@@ -12,8 +11,7 @@
       <div class="header__logo">
           <h1>
             <a href="../">
-              <!-- 記載番号：1 -->
-              <span class="header__logo-title">Tech Taro</span>
+              <span class="header__logo-title">Fujiki Yuto</span>
               <span class="header__logo-sub">Portfolio</span>
             </a>
           </h1>
@@ -32,20 +30,15 @@
     <main>
       <section class="p-work-firstview">
         <div class="section-inner">
-          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
-          <h2>HOBCHA（趣味共有SNS）</h2>
+          <h2>PHPを使用したblog投稿アプリ</h2>
           <div class="p-work-firstview__pict obj-fit-img">
-            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
-            <img src="../images/work/02/pict-work02-firstview_pc.jpg" class="show-pc">
-            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
-            <img src="../images/work/02/pict-work02-firstview_sp.jpg" class="show-sp">
+            <img src="../images/スクリーンショット 2022-05-07 14.46.47.png" class="show-pc">
+            <img src="../images/スクリーンショット 2022-05-07 14.46.47.png" class="show-sp">
           </div>
           <div class="p-work-firstview__text-area">
             <h3 class="p-work-firstview__text-titile">開発環境</h3>
-            <!-- 記載番号：3 -->
-            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
-            <!-- 記載番号：4 -->
-            <p class="p-work-firstview__text-link"><a href="__URL__" target="_blank">https://github.com/XXXXXX/xxxxxx</a></p>
+            <p class="p-work-firstview__text">PHP (Laravel) / MySQL / GitHub / Heroku / Visual Studio Code / MAMP</p>
+            <p class="p-work-firstview__text-link"><a href="https://github.com/yutofujiki/" target="_blank">https://github.com/yutofujiki/</a></p>
           </div>
         </div>
       </section>
@@ -57,39 +50,11 @@
               <table class="p-work-summary__item-table">
                 <tr>
                   <th>制作時間</th>
-                  <!-- 記載番号：5 -->
                   <td>70時間</td>
                 </tr>
                 <tr>
                   <th>URL</th>
-                  <!-- 記載番号：6 -->
-                  <td><a href="__URL__" target="_blank">http://hoge.heroku.com</a></td>
-                </tr>
-                <tr>
-                  <th>ID</th>
-                  <!-- 記載番号：7 -->
-                  <td>admin</td>
-                </tr>
-                <tr>
-                  <th>PASS</th>
-                  <!-- 記載番号：8 -->
-                  <td>2222</td>
-                </tr>
-              </table>
-            </li>
-            <li class="p-work-summary__item">
-              <h3>動作テスト</h3>
-              <h4>テスト用アカウント</h4>
-              <table class="p-work-summary__item-table">
-                <tr>
-                  <th>mail</th>
-                  <!-- 記載番号：9 -->
-                  <td>test_user@hoge.com</td>
-                </tr>
-                <tr>
-                  <th>PASS</th>
-                  <!-- 記載番号：10 -->
-                  <td>testuser1234</td>
+                  <td><a href="https://pure-peak-14525.herokuapp.com/" target="_blank">https://pure-peak-14525.herokuapp.com/</a></td>
                 </tr>
               </table>
             </li>
@@ -105,18 +70,9 @@
             <!-- 記載番号：11 -->
             <div class="p-work-outline__text">
               <p>
-                オリジナルアプリケーションとして、自身の趣味を共有をするSNSを開発しました。
+                オリジナルアプリケーションとして、PHPを使用したblogアプリを開発しました。
                 <br>
-                主な機能は、ユーザー登録機能、および趣味のジャンルごとのタイムライン機能、タグ付け機能です。
-              </p>
-              <p>
-                トップページにアクセスすると、様々な趣味のジャンルについて表示されています。それをクリックすると、そのジャンルにおけるタイムライン機能を閲覧することができます。
-              </p>
-              <p>
-                ユーザー登録をすると、それらのタイムラインに自身の投稿をすることができます。画像を添付することや、YouTubeのリンクを埋め込むことができます。YouTubeの動画については、タイムライン上で再生することができます。
-              </p>
-              <p>
-                また、投稿をする際はタグ付け（ハッシュタグ）をすることができ、ハッシュタグをクリックすると同一のハッシュタグを持つ投稿のみを閲覧することができます。
+                主な機能は、blogの投稿、編集、削除です。
               </p>
             </div>
           </div>
@@ -127,36 +83,29 @@
           <ul class="p-work-about__list">
             <li class="p-work-about__item">
               <h3>開発に至った経緯</h3>
-              <!-- 記載番号：12 -->
               <div class="p-work-about__item-block">
                 <p>
-                  普段SNSを利用している中で、効率的に情報に接することができていないと課題に感じることがありました。
+                  関西での転職活動をしたいという中で今まで学んで来た、ruby on railsでアプリを作るよりも、phpを使用してより関西で実践できるようにと思い独学ではありますが、phpにて簡単なblog投稿アプリケーションを作成いたしました。
                 </p>
                 <p>
-                  私はサッカー観戦が趣味で、特にイングランドのプレミアリーグの情報をSNSで収集します。しかし、サッカーのジャンルは広く、フォローをしている他のユーザーは他のリーグの情報や、サッカーとは関係のない情報を共有するためそれらの情報がノイズに感じることがありました。またハッシュタグのみでジャンルを管理すると、必ずしも全員がハッシュタグをつけるわけではないので、情報の網羅性に欠けると感じています。
-                </p>
-                <p>
-                  そこで、5ちゃんねるなどの掲示板の仕組みを参考に、テーマがカテゴライズされたSNSを作成したいと考えました。
+                  
                 </p>
               </div>
             </li>
             <li class="p-work-about__item">
-              <h3>開発で工夫したこと</h3>
+              <h3>開発で苦労したこと</h3>
               <div class="p-work-about__item-block p-work-about__item-block-2column">
                 <div class="p-work-about__item-block-pict obj-fit-img">
                   <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
-                  <img src="../images/work/02/pict-work02-about-dammy.jpg">
+                  <img src="../images/スクリーンショット 2022-05-07 15.07.01.png">
                 </div>
                 <!-- 記載番号：13 -->
                 <div class="p-work-about__item-block-text">
                   <p>
-                    1つ目が本アプリケーションのポイントである趣味ジャンルのカテゴライズ機能です。カテゴリー管理にはancestryというRuby gemを用い、複数改装で管理できるようにしました。また、カテゴリーを各々が作成できる機能を設けました。しかし、これにはある課題が生じ、現在は機能を取り外しています。詳細は後述します。
+                    エラーの解決でとても苦労しました。実際エンジニアなんてエラーと向き合うもので独学でやっていく中で初めて一からエラーコードと見つめ合う事ができました。
                   </p>
                   <p>
-                    2つ目がタイムラインのUIです。スマートフォンブラウザでの利用を考え、「スマホで見やすい」「スマホでタップしやすい」をテーマにマークアップを行い実装しました。
-                  </p>
-                  <p>
-                    いずれも、知人20名ほどに実際に利用してもらい、ユーザーヒアリングを行いながら改善を行っています。
+                    その中でも、コードのバージョンが違うだけでこんなにもエラーが出てしまうのかと知れた事はとても勉強になりました。
                   </p>
                 </div>
               </div>
